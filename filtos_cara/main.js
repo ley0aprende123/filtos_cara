@@ -18,7 +18,7 @@ function setup() {
 
 function draw() {
 image(video,0,0,300,300);
-Fill("red");
+fill("red");
 stroke(255,0,0);
 circle(noseX,noseY,20);
 image(nariz_gato,noseX-20,noseY-5,30,30);
